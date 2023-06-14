@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.puppy-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 16px;
+  justify-content: center;
+}
+
+.puppy-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  width: 200px;
+}
+
+.puppy-info {
+  margin-bottom: 8px;
+}
+
